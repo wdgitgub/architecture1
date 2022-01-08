@@ -1,0 +1,15 @@
+- 安装enscape
+	- 从
+		- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\enacape实时渲染器安装包
+			- 只能安装到C盘默认路径才能用
+				- enscape2.7版
+	- 到
+		- C:\Program Files\Enscape
+	- enscape安装问题
+		- https://forum.enscape3d.com/index.php?thread/6405-enscape-stuck-on-loading-screen-solved/
+		- 您似乎遇到的问题是由于缺少DLL文件引起的。您是否愿意安装Visual Studio 2015、2017和2019 Redistributable？安装此更新应解决此问题。请确保安装x64版本。
+		- 下载
+		- x64: vc_redist.x64.exe
+	- 注意
+		- enscape不能单独启动 只能在SU RHINO REVIT里启动
+- 按钮在 视图》工具栏》Enscape 和Enscape Capturing

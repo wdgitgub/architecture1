@@ -1,0 +1,260 @@
+- 同步到workfolowy
+	- https://workflowy.com/#/5eb57f2d7db6
+-
+-
+-
+- 文例
+	- SU使用套路名
+	- 【按钮 》SU里的按钮 】
+	- {rbz插件直接加载}
+		- rbz插件安装方法
+			- 窗口》扩展程序管理器》安装扩展程序
+	- {rb插件复制到c盘}
+		- rb插件复制目录
+			- C:\Users\dxdll10001\AppData\Roaming\SketchUp
+				- \SketchUp 2019\SketchUp\Plugins
+	- [toSU2019]
+		- 指SU2019用的插件
+- SU性能设置
+	- SketchUp草图大师OpenGl设置
+		- [SketchUp草图大师OpenGl设置 - SketchUp自学 	(sketchupvray.com)](https://www.sketchupvray.com/4062.html)	
+	- 如果您的电脑不兼容OpenGL的话，是打不开SketchUp的
+	- 建模的时候就保持默认的0x设置，最后出图的时候设置到16x，甚至是32x
+	- 窗口》系统设置》openGL
+	- SketchUp2017及其以下版本 电脑不支持openGL 任然可以打开SU
+	- 窗口》系统设置》openGL》打勾使用硬件加速 打勾使用快速反馈 真彩色0（建模的时候）
+- 重装插件 SU2019
+	- 重装常用重要插件
+		- 重装SU连断线 简化曲线 成面插件edge tools【按钮在 工具》edge tools2】封面封线逐步统一标高棱角化套路 [toSU2019]
+			- edge tools下载地址
+				- https://tujixiazai.com/gongchengruanjian/343984.html
+			- TT LIB下载地址
+				- http://www.sucj.me/index.php/archives/16036/
+			- 从
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件\edge tools SU2019
+				- 复制到
+				- D:\architecture software\SU\SU2019cha jian
+			- 打开su 加载
+				- 先加载 窗口》扩展程序管理》
+				- TT_Lib_v2.12.0
+				- 再加载
+				- edgetools
+			- 使用方法
+				- 工具》使用方法
+					- Divide Face
+					- Find Edge Gaps
+					- Close All Edge Gaps
+					- Erase Stray Curves
+					- Simplify Curves
+					- Co-linear from start to end
+					- Co-linear to Red (X) Axis
+					- Co-linear to Green (Y) Axis
+					- Co-linear to Blue (Z) Axis
+		- 重装SU封面插件{rb复制进C盘插件目录}[toSU2019]【按钮在 视图》工具栏》s4u-Make face】逐步封面套路
+			- 下载地址
+				- https://www.cr173.com/soft/130973.html
+			- 从 复制
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件
+					- SU2019封面插件 S4U Make Face
+				-
+				- 复制到
+				- D:\architecture software\SU\SU2019cha jian
+			- 从D:\architecture software\SU\SU2019cha jian\SU2019封面插件 S4U Make Face\
+				- 复制s4u_makeface 文件包和 s4u_makeface.rb
+				- 到 C:\Users 用户 \你的用户名\AppData\Roaming\SketchUp\SketchUp 2019\SketchUp\Plugins\
+			- 使用方法
+				- 扩展程序》suforyou》makefac
+		-   重装SU减小模型插件 SKIMP FOR SU2019{rbz直接加载}[toSU2019]【按钮在 视图》工具栏》Skimp】减小模型套路
+			- 134U-vв
+			- skimp
+			- 从 复制
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件\新SU减小模型插件FOR SU2019\06 模型优化插件组合\智能减免插件中文版\
+				- Skimp V1.1.1汉化激活版
+			- 到 粘贴
+				- 本地插件目录
+					- D:\architecture software\SU\SU2019cha jian
+					-
+			-
+			- 安装步骤
+				- 在Sketchup的 窗口》扩展程序管理器》安装扩展程序 skimp-v1.1.1.rbz
+					- 窗口》扩展程序管理器》安装扩展程序
+				-  拷贝MSS_Licensing_source.so到 C:\Users\你的用户名\AppData\Roaming\SketchUp\SketchUp 2019\SketchUp\Plugins\DM_Skimp\so\2.5\64bits\
+					- C:\Users\dxdll10001\AppData\Roaming
+				- 拷贝skimp.lic到C:\ProgramData\Skimp\
+					- C:\ProgramData\Skimp\Logs
+				- 重启sketch
+			- 激活后，打开SU，发现插件没有激活，还出现添加许可窗口怎么处理？（一般不会）
+				- 检查你的SU安装路径
+				- 1、正确的SU路径举例：C：/Programfiles/Sketchup/Sketchup2018
+				- D：/Programfiles/Sketchup/Sketchup2018
+				- E : /Programfiles/Sketchup/Sketchup2018
+				- 2 、重新安装SU，如上述这样默认安装路径，只可以改盘符。不要自己改具体路径，而另建立文件夹。
+				- 3、如果不重新安装SU，可以把SU程序移到上述默认路径里，重新建立Sketchup的的快捷方式到桌面.
+			- 使用方法
+				- 扩展程序skimp
+				- ![image.png](../assets/image_1630128519573_0.png)
+		- SU图层管理插件 Layers  Panel 【按钮在 工具》layer panel】
+			- 从
+			- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件\新 SU图层控制插件
+			- 复制到
+				- 本地插件目录
+					- D:\architecture software\SU\SU2019cha jian
+			-
+		- SU图层管理插件 Layers Organizer【按钮 视图》工具栏》Laubwerk Layers Organizer】[toSU2019] 会错误
+			- 从
+				- http://www.sublog.net/archives/55717/
+				- https://www.jb51.net/softs/619402.html#downintro2
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件
+		- SU逐步统一翻面朝外插件套路【按钮 工具》AutoReverseFaces或视图》工具栏》Fredo6 Tools》】FredoTools（Fredo工具箱）[toSU2019]{rbz直接加载}
+			- 从
+				- http://www.sucj.me/index.php/archives/16039/
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件
+			-
+			- 安装完成后汉化
+				- 汉化教程
+					- http://www.sucj.me/index.php/archives/16039/
+					- 窗口》LibFredo6 Settings》Set Preferred Languages
+			- 使用问题
+				- 不能反转就是重面
+			- 按键翻译
+				-
+				  >> FredoTools Launceher..
+				- Angle Inspector 角度检查器
+				- AutoReverseFaces 统一面方向
+				- Construct Face Normals 构造参考法线
+				- Convexify 凸化
+				- Count Faces by Sides 并排数脸
+				- Curvishear弯头
+				- Divide Edges分割边缘
+				- Draw Along 顺着
+				- Edge Inspector边缘检查器
+				- Element Stats元素统计
+				- FaceTriangulator
+				- Mark Vertices 标记顶点
+				- Move Along 向前走
+				- Remove Lonely Vertices 删除孤独的顶点
+				- Report on Areas 区域报告
+				- Label with Areas 带区域标签
+				- ReverseOrientFaces 反转那面
+				- Revert Cunves 还原小动物
+				- Solid Volume 固体体积
+				- ThruPaint 画画
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+			-
+		- 保留一份道路的线做成黑色圆管套路 SU线变圆管插件线转二维方柱【按钮 扩展程序》线转方柱】
+			- 从
+				- https://www.cr173.com/soft/728770.html
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件
+		- SU地面线变圆管套路 插件线转二维方柱【按钮 扩展程序》线转方柱】
+			- 从
+				- https://www.cr173.com/soft/728770.html
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件
+		- enscape渲染局部方案套路 enscape软件安装【按钮在 视图》工具栏》Enscape 和Enscape Capturing 】
+			- 安装enscape
+				- 从
+					- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\enacape实时渲染器安装包
+						- 只能安装到C盘默认路径才能用
+							- enscape2.7版
+				- 到
+					- C:\Program Files\Enscape
+				- enscape安装问题
+					- https://forum.enscape3d.com/index.php?thread/6405-enscape-stuck-on-loading-screen-solved/
+					- 您似乎遇到的问题是由于缺少DLL文件引起的。您是否愿意安装Visual Studio 2015、2017和2019 Redistributable？安装此更新应解决此问题。请确保安装x64版本。
+					- 下载
+					- x64: vc_redist.x64.exe
+				- 注意
+					- enscape不能单独启动 只能在SU RHINO REVIT里启动
+			-
+		- JHS PowerBar   
+			- Extruder Along Path【按钮在：右键》工具栏》JHS PowerBar  工具】
+			- 单线变方窗框插件
+	- 重装不重要插件
+		- U逐步简化连接曲线工具 Curvizard（曲线优化工具）中文版v2.4b【按钮在 工具 》LibFredo6》Curvizard】SU逐步曲线简化套路
+			- http://www.sublog.net/archives/46289/
+			- 要先安装LibFredo6 插件
+			- 从
+				- https://www.cr173.com/soft/71013.html
+			- 从
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件\SU不重要插件
+		- SU柔化边缘 棱化边缘插件AMS Soften Edges【按钮在 窗口】
+			- 从
+				- Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU插件\SU不重要插件
+		- SU 简化等高线插件 Simplify Contours Tool as Contours Tool 【按钮在视图》工具栏》ContoursTool】【SU曲线简化套路】
+			- http://www.sucj.me/index.php/archives/15331/
+		- 其他插件安装包位置 安装SU的时候安装
+			- ｛toSU2008｝
+				- 从 Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\su8
+			- ｛toSU2014｝
+				- 从 Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU2014
+			- ｛toSU2015｝
+				- 从 Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\su2015及VRAY
+			- ｛toSU2016｝
+				- 从 Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\SU2016
+			- ｛toSU2019｝
+				- 从 Q:\樊帅不能删\建筑\建筑软件\软件安装及教程\SU\2019草图软件
+- SU使用套路
+	- 快速平地形套路 成面简化填色正面朝上twimotion出效果图套路
+		- 先 edgetools封面封线逐步统一标高棱角化套路
+		- 再 保留一份道路的线做成黑色圆管套路
+		- 再 makeface逐步封面套路
+		- 再 去掉重复面套路
+		- 再 正面朝外套路
+		- 再 填充地面颜色套路
+		- 再 地面线变圆管套路
+		- 再 SU导入twimotion套路
+			- ​建筑软件互导流程套路 文件缩小套路方法 ​
+		- 再 总平地上线变圆管套路
+	- 正面朝外套路
+		- 视图》工具栏》样式
+			- 》最后一个方块单色显示
+		- 右键》 反转方向
+	- edgetools封面封线逐步统一标高棱角化套路
+		- ​SU初始设置 SU使用套路 SU插件安装方法 sketchup插件 sketchup图标 SU快捷键 sketchup​
+	- makeface逐步封面套路
+		- ​SU初始设置 SU使用套路 SU插件安装方法 sketchup插件 sketchup图标 SU快捷键 sketchup​
+	- 双面填色套路
+	- 总平地上线变圆管套路
+		- 外面做一个平面组件 分批次处理的方格为参照
+		- 在地面线的组件中 从下到左选择
+	- 填充地面颜色套路
+		- 草地要延伸到边界
+		- 填大不填小 像画画一样注意对比
+		- 填不上颜色地方删除再填
+		- 填溢出的地方删掉重新做面
+		- 周边建筑做成玻璃材质
+	- 修改地面填充颜色套路
+	- 保留一份道路的线做成黑色圆管套路
+	-
+	- SU导出TWIMOTION渲染套路 建模瘦身的
+		- ​建筑软件互导流程套路 文件缩小套路方法 ​
+	- enscape渲染局部方案套路
+		- ​SU初始设置 SU使用套路 SU插件安装方法 sketchup插件 sketchup图标 SU快捷键 sketchup​
+	-
+	-
+	-
+	-
+	-
+	-
+	-
+- SU快捷键
+- SU做东西总结
+	- Sketch up添加位置方法
+		- 文件——地理位置——添加位置
+	- 反转单个平面》右键反转平面
+		- 不能反转就是重面
+- SU问题总结
+-

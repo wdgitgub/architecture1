@@ -1,0 +1,141 @@
+- C4D初始设置
+	-
+	- 设置完要保存启动界面
+	- C4D修改快捷键
+		- 窗口 自定义布局 自定义命令
+		- 修改鼠标中键快捷键为旋转视图
+			- 名称过滤里 旋转摄像机 添加 鼠标中键
+	- 视图修剪为极大
+		- ctril d》工程设置》视图修剪》极大
+	- 安装C4D插件(先安装C4D插件 再安装3DMAX插件 再安装C4D 3DMAX共有插件)
+		- 插件硬盘路径
+			-
+		- 插件安装方法
+			- https://www.youtube.com/watch?v=2XfW5MsMSKY
+			- 插件安装方法 R20
+				- 先安装R20插件文件修改文件
+					- https://www.bilibili.com/video/av55237484/
+					- 把R20插件修改文件复制进每一个插件
+				- 插件分类不同安装方法不同
+					- 假设该插件是一个文件夹（设它是文件夹：A ）该文件夹里有 res文件夹
+						- 那么 复制这个文件夹A 进C4D安装目录 plugins里
+					- 是一个文件夹A 该文件夹里有 res文件夹 ，还 有scripts文件夹
+						- 复制有res的文件夹 进C4D安装目录 plugins
+						- 复制有scripts的文件夹 进C4D安装目录 library>scripts文件夹
+					- 是一个文件夹A 该文件夹里有 lib4d文件 还有 textture材质文件夹
+						- 复制有lib4d的文件夹 进进C4D安装目录 tex 文件夹 library>browser
+						- 复制有 textture的材质文件夹 》到C4D安装目录下 tex文件夹（没有就新建一个）
+					- 是一个exe安装包 》 双击运行这个exe文件 》 找到C4D的安装目录
+				- 打开C4D 》 要么在菜单栏里出现 要么在插件菜单里 要么在对象栏右键里出现
+				- 打开C4D里内容浏览器 里也可以调用插件
+		- 网上下载路径
+			- houdini插件（小电池插件）
+				- 下载
+				- C4D使用Houdini引擎教程
+					- http://www.gfxcamp.com/houdini-engine/
+				- 或者从
+				- 安装方法
+					-
+			- Forester创造树（+要安装R20插件修改文件）
+				- 下载
+					- https://www.cr173.com/soft/1064689.html
+				- 或者从
+			- tuile generator屋顶插件（R20直接安装可用）
+				- 下载
+					- http://www.c4dcn.com/thread-3610.html
+					- https://item.taobao.com/item.htm?spm=a1z09.2.0.0.201c2e8dEQHXdO&id=611458341868&_u=neko2gc5a19
+				- 或者从
+			- grass painter草地插件（R20直接安装可用）
+				- 下载
+					- http://www.gfxcamp.com/c4dzone-grass-painter/
+				- 或者从
+				- 安装方法
+					- 将文件夹 GrassPainter2复制到 C4D安装路径下 > Plugins
+					- 要激活GrassPainter2，请从“Plugins（插件）”菜单中启动它并复制安装代码
+					- 单击“Get your Key now 立即获取密钥”按钮，您将在C4Dzone上重定向到“Orders list订单”列表中。 （如果将打开错误的浏览器，请尝试使用您喜欢的浏览器，然后转到“Orders list订单”列表）
+					- 搜索您的GrassPainter2订单(GrassPainter2 order)
+					- 单击小放大镜 little magnifying glass 按钮打开订单，然后将安装代码 Installation code 粘贴到Poly Breaker字段中，然后单击“ +”按钮。
+					- 几秒钟后，出现许可证密钥 License Key。 如果出现错误，请使用相同的表格form再试一次。 不要使用新的表单字段 form field。
+					- 复制您的许可证密钥 License Key，然后将其粘贴到GrassPainter 2
+					- 按“激活您的许可证Activate your License”按钮
+						- 现在您的许可证处于活动状态。 如果在激活GrassPainter2时出错，请再次将许可证密钥粘贴到GrassPainter2中进行验证。
+						- 如果再次出错，则可能是对Cinema 4D Plugin文件夹（在Windows系统上）存在权限问题。 在“文档Documentation”文件夹中，有一个PDF“ Edit-Permissions.pdf”。
+						- 不要在C4Dzone.com上生成其他许可证密钥，因为您获得的密钥是正确的。
+						- 警告！：
+							- Poly Breaker已根据您的硬件配置被激活，GrassPainter2和Cinema4D序列之间没有连接，因此，如果您需要重新安装Cinema4D或更改其序列，则可以在C4Dzone订单详细信息中找到许可证密钥，否则可以备份GrassPainter2 文件夹已激活。 许可证密钥仅在此计算机上有效。
+							- 基于3种不同的硬件配置，GrassPainter2最多可以激活3次。
+			- c4d buildng kit 建筑多层工具
+				- 下载
+					- https://www.newasp.net/soft/432487.html
+				- 或者从
+				- 安装步骤
+					- 是.lib4d文件，您需要将其放入
+					- / library / preferences / maxon / YOURVERSIONOFC4D / library / browser
+					- 将building_kit_1.3.lib4d文件放入该文件夹后，
+					- 重新启动Cinema 4D，打开您的内容浏览器，它将在您的预设中显示为文件夹。
+			- floor generator 地面工具
+				- 下载
+					- http://www.c4dcn.com/forum.php?mod=viewthread&tid=3645&ordertype=1
+				- 或者从
+			- dem earth 地图景观
+				- 下载
+					- http://www.c4dcn.com/thread-16121.html
+				- 或者从
+			- city rig 城市环境创建
+				- 下载
+					- https://www.cr173.com/soft/1131263.html
+				- 或者从
+			- LWCAD lite 建筑工具类似CAD1
+				- 下载
+					- http://www.lookae.com/lwcad/
+				- 或者从
+				- 安装说明
+					-
+			- texture kit pro 材质工具
+				- 下载
+					- http://www.3dmax8.com/3dmax/2019/1221/7074.html
+				- 或者从
+			- building generator 快速创造高质量建筑（模块化）
+				- 下载
+					-
+				- 或者从
+			- easy ivy C4D插件oc插件藤曼植物
+				- 下载
+					- https://s.taobao.com/search?q=C4D%E6%8F%92%E4%BB%B6oc%E6%8F%92%E4%BB%B6%E8%97%A4%E6%9B%BC%E6%A4%8D%E7%89%A9&imgfile=&js=1&stats_click=search_radio_all%3A1&initiative_id=staobaoz_20200428&ie=utf8
+				- 或者从
+			- win4doors 快速创建门窗楼梯（R20直接安装可用）
+				- 下载
+					- http://www.4d66.com/108.html
+				- 或者从
+			- baluster 4dD 栏杆 和stairs profire（R20直接安装可用）
+				- 下载
+					- http://www.gfxcamp.com/baluster4d-stairsprofile/
+				- 或者从
+			- laubwerk plants and trees 种树（R20直接安装可用）
+				- 下载
+					- https://c4dsky.com/68066.html
+				- 或者从
+				- 安装步骤
+					-
+			- сity kit 快速创建城市
+				- 下载
+					- http://www.c4dcn.com/thread-3157.html
+				- 或者从
+					-
+				- 安装：
+					- 1.将脚本文件夹内的“GSG_City_Kit(CN)”整个文件夹放入C4D脚本文件夹
+					- 参考路径：C:\Program Files\MAXON\CINEMA 4D R15\library\scripts
+					- 2.将纹理文件夹内的“GSG_City_Kit-tex”整个文件夹放入C4D默认纹理文件夹
+					- 参考路径：C:\Program Files\MAXON\CINEMA 4D R15\tex（如果没有tex手动新建一个即可）
+					- 3.打开C4D将界面文件中的"界面文件"拖动到C4D窗口里
+					- 右键对此面板执行折叠面板，然后执行窗口-自定义命令（Shift+F12）勾选“编辑图标面板”
+					- 将折叠好的图标面板拖拽至C4D菜单栏上即可
+					- 如果想删除某个图标位置双击该图标即可
+					- 最后执行窗口-自定义布局-保存为启动布局即可！
+			- anima 创造人 人的动画
+				- 下载
+					- https://plugins.cgrecord.net/2019/01/anima-353-for-3ds-max-cinema-4d-and.html
+				- 或者从
+			- 其他插件名单
+				- https://www.youtube.com/results?search_query=c4d+plugin+
+-

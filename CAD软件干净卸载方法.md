@@ -1,0 +1,38 @@
+- CAD卸载
+	- CAD2008卸载
+		- 如何彻底卸载cad2008？ - 知乎 (zhihu.com)
+		-
+		- 注册表搜索 工具RagScanner
+		- 注册表检索软件下载_RegScanner(快速搜索注册表键值) 2.3.1 中文绿色版_极速下载站_软件下载 (jisuxz.com)
+		-
+		-
+		-
+		- 在控制面板中，卸载所有CAD相关程序。
+		- 2、删掉AUTOCAD安装的文件夹。
+		- 3、删除C盘ProgramData下的AUTOCAD文件夹，这里包含你安装的CAD所有版本。
+		- 4、彻底删除CAD注册表
+		- 4.1打开注册表（Win+R，输入regedit回车），
+		- 4.2找到“HKEY_CURRENT_USER\software\”目录下的Autodesk文件夹，在Autodesk文件夹里的CAD2008的部分，删掉。
+		- 4.3找到“HKEY_LOCAL_MACHINE\software\”目录下的Autodesk文件夹，里的CAD2008的部分，删掉。
+		- 4.4删除“HKEY_LOCAL_MACHINE\software\classes\installer\products”目录下的7D2F387510064080002000060BECB6AB文件夹 (没有找到的话，就打开尾部为B6AB的文件夹，找哪个文件夹有cad字符就删那个文件夹。这一项不是每台电脑都有，有的也没有，有就卸载，确认没有就可以。）
+		-
+		-
+		-
+		-
+		- cad2008安装失败，出现这样的是什么原因？
+			- 1、打开“我的电脑”——点击：“C盘”
+			- 2、打开“Documents and Settings”文件夹
+			- 3、打开“All Users”文件夹
+			- 4、打开“Application Data”文件夹。这个文件属于隐藏文件。
+			- 5、打开“Autodesk”文件夹。——找到”Software Licenses"文件夹。
+			- 6、把”Software Licenses"文件夹里的带“dat”的文件都删掉。就可以了。
+		-
+		-
+		-
+		-
+		-
+		-
+-
+-
+- CAD2014 2016 2020 卸载
+-
