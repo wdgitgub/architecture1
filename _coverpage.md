@@ -2,17 +2,16 @@
 
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8lEZyYBzqDkDbdnmIEpjn6WQdmQJ-q4AGvsY77GTsB_mac3KisFBfYjEEz4t_Mnx9Ehc&usqp=CAU)
 
-# **≡ SHUAI FAN**
+# **≡ ARCHITECTURE**
 ## & 主页 Home Page
-> 协助个人或企业解决跨专业所关注的问题
+> 软件使用问题 专业其他流程 工作流分享
 
-* Assist individuals or businesses with your concerns (Online twenty-four Seven)
-* Inter-professional integration
-* Information sharing
+* Software usage issues 
+* Professional Other Processes
+* Workflow sharing
 
-[给我留言](https://shuaifan.discussion.community/post/%E7%BB%99%E6%88%91%E7%95%99%E8%A8%80-12181635?pid=1330883572#post1330883572)
-[给我发邮件](mailto:mail@fanshuai.pp.ua)
-[在线沟通Live Chat](https://direct.lc.chat/13357776/)
+
+[在线问Live Chat](https://app.chaport.com/widget/show.html?appid=61b5dc3d081e5a614003c571)
 
 
 
